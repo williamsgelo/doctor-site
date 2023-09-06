@@ -16,7 +16,7 @@ import icon03 from "../assets/images/icon03.png";
 import ServiceList from "../components/services/ServiceList";
 import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/Faq/FaqList";
-import Testimonial from "../components/Testimonial/Testimonial";
+// import Testimonial from "../components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -287,7 +287,7 @@ const Home = () => {
       {/* ===== faq section end ===== */}
 
       {/* ====== testimonial ====== */}
-      <section>
+      {/* <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">What our patients say</h2>
@@ -299,7 +299,7 @@ const Home = () => {
 
           <Testimonial />
         </div>
-      </section>
+      </section> */}
       {/* ====== testimonial end ====== */}
     </>
   );
